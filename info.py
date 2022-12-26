@@ -47,7 +47,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 PORT = environ.get("PORT", "8080")
-SHORTENR_URL = environ.get('SHORTENR_URL', 'shareus.in')
+SHORTENR_URL = environ.get('SHORTENR_URL', 'api.shareus.in/shortLink')
 SHORTNER_API = environ.get('SHORTNER_API', 'tO7so9w4CydmSngMFVB4ynX8j6k2')
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GOFte-Rz2tcxODg1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+mCMdCb_ymAowZmNl')

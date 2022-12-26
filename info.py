@@ -41,19 +41,19 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://bubaiupdate1:bubaiupdate1@cluster0.inxrczn.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Senapati")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 PORT = environ.get("PORT", "8080")
 SHORTENR_URL = environ.get('SHORTENR_URL', 'Clicksfly.com')
 SHORTNER_API = environ.get('SHORTNER_API', '0ecd9db3478306c47c94eddef41ccf8a12c5eb92')
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GOFte-Rz2tcxODg1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+mCMdCb_ymAowZmNl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+5CXTuQJw_8g0NWQ1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+EOtaPGpS-SRhNjRl')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'MOVIESNSERIESGROUPSNS')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
